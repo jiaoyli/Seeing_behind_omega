@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "40bf3484c5a985db39ebebda9ebead9d"
+build_time: [1522010413, 391341000]
+inputs:
+  "/Users/summer/Documents/EECS_498/Project/MjpegStreamingKit/MjpegStreamingController.swift": [1521501892, 0]

@@ -1,0 +1,683 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewControllerII"
+provides-nominal:
+- "19Seeing_Behind_Alpha16ViewControllerIIC"
+provides-member:
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "imageView"
+- "loadingIndicator"
+- "play"
+- "viewDidLoad"
+- "viewWillDisappear"
+depends-top-level:
+- !private "+"
+- !private "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "MjpegStreamingController"
+- !private "StringLiteralType"
+- "UIActivityIndicatorView"
+- !private "UIApplication"
+- "UIImageView"
+- "UITapGestureRecognizer"
+- "UIViewController"
+- "URL"
+- "ViewControllerII"
+- !private "host_url"
+- !private "print"
+depends-member:
+- !private ["19Seeing_Behind_Alpha11AppDelegateC", "myViewController2"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["s7CVarArgP", "MjpegStreamingController"]
+- !private ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "contentURL"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didFinishLoading"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "didStartLoading"]
+- !private ["s7CVarArgP", "host_url"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadingIndicator"]
+- !private ["s7CVarArgP", "myViewController2"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "playing"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reloadCamView"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["s7CVarArgP", "streamingController2"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "MjpegStreamingController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "contentURL"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didFinishLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "didStartLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "host_url"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadingIndicator"]
+- !private ["s28CustomDebugStringConvertibleP", "myViewController2"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "playing"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadCamView"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "streamingController2"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "MjpegStreamingController"]
+- !private ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "contentURL"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didFinishLoading"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "didStartLoading"]
+- !private ["s23CustomStringConvertibleP", "host_url"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadingIndicator"]
+- !private ["s23CustomStringConvertibleP", "myViewController2"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "playing"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reloadCamView"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "streamingController2"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "MjpegStreamingController"]
+- !private ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "contentURL"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "didFinishLoading"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "didStartLoading"]
+- !private ["s9EquatableP", "host_url"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadingIndicator"]
+- !private ["s9EquatableP", "myViewController2"]
+- !private ["s9EquatableP", "play"]
+- !private ["s9EquatableP", "playing"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "reloadCamView"]
+- !private ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "startAnimating"]
+- !private ["s9EquatableP", "stop"]
+- !private ["s9EquatableP", "stopAnimating"]
+- !private ["s9EquatableP", "streamingController2"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "MjpegStreamingController"]
+- !private ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "URL"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "contentURL"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "didFinishLoading"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "didStartLoading"]
+- !private ["s8HashableP", "host_url"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadingIndicator"]
+- !private ["s8HashableP", "myViewController2"]
+- !private ["s8HashableP", "play"]
+- !private ["s8HashableP", "playing"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "reloadCamView"]
+- !private ["s8HashableP", "shared"]
+- !private ["s8HashableP", "startAnimating"]
+- !private ["s8HashableP", "stop"]
+- !private ["s8HashableP", "stopAnimating"]
+- !private ["s8HashableP", "streamingController2"]
+- !private ["s8HashableP", "url"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "contentURL"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "didFinishLoading"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "didStartLoading"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "init"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "play"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "stop"]
+- !private ["So8NSCodingP", "MjpegStreamingController"]
+- !private ["So8NSCodingP", "UIApplication"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "host_url"]
+- !private ["So8NSCodingP", "imageView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loadingIndicator"]
+- !private ["So8NSCodingP", "playing"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "reloadCamView"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- !private ["So8NSCodingP", "streamingController2"]
+- !private ["So8NSCodingP", "url"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "MjpegStreamingController"]
+- !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "host_url"]
+- !private ["So26NSExtensionRequestHandlingP", "imageView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loadingIndicator"]
+- !private ["So26NSExtensionRequestHandlingP", "playing"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "reloadCamView"]
+- !private ["So26NSExtensionRequestHandlingP", "streamingController2"]
+- !private ["So26NSExtensionRequestHandlingP", "url"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "MjpegStreamingController"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- !private ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "contentURL"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "didFinishLoading"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "didStartLoading"]
+- !private ["So8NSObjectC", "host_url"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadingIndicator"]
+- !private ["So8NSObjectC", "myViewController2"]
+- ["So8NSObjectC", "play"]
+- ["So8NSObjectC", "playing"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "reloadCamView"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- ["So8NSObjectC", "streamingController2"]
+- ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So16NSObjectProtocolP", "MjpegStreamingController"]
+- !private ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "contentURL"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "didFinishLoading"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "didStartLoading"]
+- !private ["So16NSObjectProtocolP", "host_url"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadingIndicator"]
+- !private ["So16NSObjectProtocolP", "myViewController2"]
+- !private ["So16NSObjectProtocolP", "play"]
+- !private ["So16NSObjectProtocolP", "playing"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "reloadCamView"]
+- !private ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "startAnimating"]
+- !private ["So16NSObjectProtocolP", "stop"]
+- !private ["So16NSObjectProtocolP", "stopAnimating"]
+- !private ["So16NSObjectProtocolP", "streamingController2"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "MjpegStreamingController"]
+- !private ["So21UIAppearanceContainerP", "UIApplication"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "host_url"]
+- !private ["So21UIAppearanceContainerP", "imageView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loadingIndicator"]
+- !private ["So21UIAppearanceContainerP", "playing"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "reloadCamView"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "streamingController2"]
+- !private ["So21UIAppearanceContainerP", "url"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So13UIApplicationC", "delegate"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So21UIApplicationDelegateP", "myViewController2"]
+- !private ["So18UIContentContainerP", "MjpegStreamingController"]
+- !private ["So18UIContentContainerP", "UIApplication"]
+- !private ["So18UIContentContainerP", "URL"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "host_url"]
+- !private ["So18UIContentContainerP", "imageView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loadingIndicator"]
+- !private ["So18UIContentContainerP", "playing"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "reloadCamView"]
+- !private ["So18UIContentContainerP", "streamingController2"]
+- !private ["So18UIContentContainerP", "url"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "MjpegStreamingController"]
+- !private ["So18UIFocusEnvironmentP", "UIApplication"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "host_url"]
+- !private ["So18UIFocusEnvironmentP", "imageView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loadingIndicator"]
+- !private ["So18UIFocusEnvironmentP", "playing"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "reloadCamView"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "streamingController2"]
+- !private ["So18UIFocusEnvironmentP", "url"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "MjpegStreamingController"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "host_url"]
+- !private ["So30UIPasteConfigurationSupportingP", "imageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadingIndicator"]
+- !private ["So30UIPasteConfigurationSupportingP", "myViewController2"]
+- !private ["So30UIPasteConfigurationSupportingP", "playing"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadCamView"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "streamingController2"]
+- !private ["So30UIPasteConfigurationSupportingP", "url"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "AppDelegate"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "MjpegStreamingController"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- !private ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "host_url"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loadingIndicator"]
+- !private ["So11UIResponderC", "myViewController2"]
+- ["So11UIResponderC", "play"]
+- ["So11UIResponderC", "playing"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "reloadCamView"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- ["So11UIResponderC", "streamingController2"]
+- ["So11UIResponderC", "url"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "MjpegStreamingController"]
+- !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "host_url"]
+- !private ["So30UIResponderStandardEditActionsP", "imageView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loadingIndicator"]
+- !private ["So30UIResponderStandardEditActionsP", "myViewController2"]
+- !private ["So30UIResponderStandardEditActionsP", "playing"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadCamView"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "streamingController2"]
+- !private ["So30UIResponderStandardEditActionsP", "url"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "MjpegStreamingController"]
+- !private ["So16UIStateRestoringP", "UIApplication"]
+- !private ["So16UIStateRestoringP", "URL"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "host_url"]
+- !private ["So16UIStateRestoringP", "imageView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loadingIndicator"]
+- !private ["So16UIStateRestoringP", "playing"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "reloadCamView"]
+- !private ["So16UIStateRestoringP", "streamingController2"]
+- !private ["So16UIStateRestoringP", "url"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "MjpegStreamingController"]
+- !private ["So18UITraitEnvironmentP", "UIApplication"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "host_url"]
+- !private ["So18UITraitEnvironmentP", "imageView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loadingIndicator"]
+- !private ["So18UITraitEnvironmentP", "playing"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "reloadCamView"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- !private ["So18UITraitEnvironmentP", "streamingController2"]
+- !private ["So18UITraitEnvironmentP", "url"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- !private ["So16UIViewControllerC", "AppDelegate"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "MjpegStreamingController"]
+- ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- !private ["So16UIViewControllerC", "UIApplication"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- !private ["So16UIViewControllerC", "host_url"]
+- ["So16UIViewControllerC", "imageView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loadingIndicator"]
+- ["So16UIViewControllerC", "play"]
+- ["So16UIViewControllerC", "playing"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "reloadCamView"]
+- ["So16UIViewControllerC", "streamingController2"]
+- ["So16UIViewControllerC", "url"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- ["So16UIViewControllerC", ""]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So22URLSessionDataDelegateP", "contentURL"]
+- !private ["So22URLSessionDataDelegateP", "didFinishLoading"]
+- !private ["So22URLSessionDataDelegateP", "didStartLoading"]
+- !private ["So22URLSessionDataDelegateP", "init"]
+- !private ["So22URLSessionDataDelegateP", "play"]
+- !private ["So22URLSessionDataDelegateP", "stop"]
+- !private ["So18URLSessionDelegateP", "contentURL"]
+- !private ["So18URLSessionDelegateP", "didFinishLoading"]
+- !private ["So18URLSessionDelegateP", "didStartLoading"]
+- !private ["So18URLSessionDelegateP", "init"]
+- !private ["So18URLSessionDelegateP", "play"]
+- !private ["So18URLSessionDelegateP", "stop"]
+- !private ["So22URLSessionTaskDelegateP", "contentURL"]
+- !private ["So22URLSessionTaskDelegateP", "didFinishLoading"]
+- !private ["So22URLSessionTaskDelegateP", "didStartLoading"]
+- !private ["So22URLSessionTaskDelegateP", "init"]
+- !private ["So22URLSessionTaskDelegateP", "play"]
+- !private ["So22URLSessionTaskDelegateP", "stop"]
+- !private ["19Seeing_Behind_Alpha16ViewControllerIIC", "AppDelegate"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "Bool"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "MjpegStreamingController"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "UIActivityIndicatorView"]
+- !private ["19Seeing_Behind_Alpha16ViewControllerIIC", "UIApplication"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "UIImageView"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "UITapGestureRecognizer"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "URL"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "deinit"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "didReceiveMemoryWarning"]
+- !private ["19Seeing_Behind_Alpha16ViewControllerIIC", "host_url"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "imageView"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "init"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "loadingIndicator"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "play"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "playing"]
+- !private ["19Seeing_Behind_Alpha16ViewControllerIIC", "print"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "reloadCamView"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "streamingController2"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "url"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "viewDidLoad"]
+- ["19Seeing_Behind_Alpha16ViewControllerIIC", "viewWillDisappear"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MjpegStreamingController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didFinishLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didStartLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "host_url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadingIndicator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "myViewController2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadCamView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "streamingController2"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "19Seeing_Behind_Alpha11AppDelegateC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "17MjpegStreamingKit0aB10ControllerC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So23UIActivityIndicatorViewC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So21UIApplicationDelegateP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "So22URLSessionDataDelegateP"
+- !private "So18URLSessionDelegateP"
+- !private "So22URLSessionTaskDelegateP"
+- "19Seeing_Behind_Alpha16ViewControllerIIC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Modules/MjpegStreamingKit.swiftmodule/arm64.swiftmodule"
+- "/Users/summer/Documents/EECS_498/Project/Carthage/Build/iOS/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/libssh2.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSH.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSFTP.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSFTPFile.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHChannelDelegate.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHSessionDelegate.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHConfig.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHHostConfig.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHChannel.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHSession.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/libssh2_sftp.h"
+- "/Users/summer/Documents/EECS_498/Project/Seeing-Behind-Alpha/Seeing-Behind-Alpha-Bridging-Header.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Headers/NMSSHLogger.h"
+- "/Users/summer/Documents/EECS_498/Project/Seeing-Behind-Alpha/OpenCVWrapper.h"
+- "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Headers/MjpegStreamingKit-Swift.h"
+- "/Users/summer/Documents/EECS_498/Project/Carthage/Build/iOS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Headers/MjpegStreamingKit.h"
+- "/Users/summer/Documents/EECS_498/Project/Carthage/Build/iOS/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView.h"
+- "/Users/summer/Documents/EECS_498/Project/./NMSSH.framework/Modules/module.modulemap"
+- "/Users/summer/Documents/EECS_498/Project/NMSSH.framework/Modules/module.modulemap"
+- "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Modules/module.modulemap"
+- "/Users/summer/Documents/EECS_498/Project/Carthage/Build/iOS/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "1ad05d37d776e8cd5a107d7fffbd839c"

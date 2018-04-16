@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MjpegStreamingKit-Swift.h",
+          'external-contents': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Headers/MjpegStreamingKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MjpegStreamingKit.h",
+          'external-contents': "/Users/summer/Documents/EECS_498/Project/MjpegStreamingKit/MjpegStreamingKit.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/MjpegStreamingKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/summer/Documents/EECS_498/Project/build/MjpegStreamingKit.build/Debug-iphoneos/MjpegStreamingKit.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

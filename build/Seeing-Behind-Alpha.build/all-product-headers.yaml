@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/Seeing-Behind-Alpha.app/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Seeing_Behind_Alpha-Swift.h",
+          'external-contents': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/Seeing-Behind-Alpha.app/Headers/Seeing_Behind_Alpha-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/summer/Documents/EECS_498/Project/build/Debug-iphoneos/Seeing-Behind-Alpha.app/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/summer/Documents/EECS_498/Project/build/Seeing-Behind-Alpha.build/Debug-iphoneos/Seeing-Behind-Alpha.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

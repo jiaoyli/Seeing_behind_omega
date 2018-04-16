@@ -1,0 +1,10 @@
+framework module MjpegStreamingKit {
+  umbrella header "MjpegStreamingKit.h"
+
+  export *
+  module * { export * }
+}
+
+module MjpegStreamingKit.__Swift {
+    exclude header "MjpegStreamingKit-Swift.h"
+}

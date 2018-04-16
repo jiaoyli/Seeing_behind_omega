@@ -1,0 +1,822 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MjpegStreamingController"
+provides-nominal:
+- "17MjpegStreamingKit0aB10ControllerC"
+provides-member:
+- ["17MjpegStreamingKit0aB10ControllerC", ""]
+provides-dynamic-lookup:
+- "contentURL"
+- "currentFrame"
+- "didFinishLoading"
+- "didStartLoading"
+- "imageView"
+- "play"
+- "stop"
+- "urlSession"
+depends-top-level:
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- "Foundation"
+- "MjpegStreamingController"
+- "NSMutableData"
+- "NSObject"
+- !private "NSURLAuthenticationMethodServerTrust"
+- "StringLiteralType"
+- "UIImage"
+- "UIImageView"
+- "URL"
+- "URLAuthenticationChallenge"
+- "URLCredential"
+- !private "URLRequest"
+- "URLResponse"
+- "URLSession"
+- !private "URLSessionConfiguration"
+- "URLSessionDataDelegate"
+- "URLSessionDataTask"
+- "URLSessionTask"
+- "Void"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["So10URLSessionC24AuthChallengeDispositionO", "performDefaultHandling"]
+- !private ["So10URLSessionC24AuthChallengeDispositionO", "useCredential"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "image"]
+- !private ["So7CGImageC", "copy"]
+- ["s7CVarArgP", "AuthChallengeDisposition"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "Foundation"]
+- !private ["s7CVarArgP", "NSMutableData"]
+- !private ["s7CVarArgP", "NSURLAuthenticationMethodServerTrust"]
+- ["s7CVarArgP", "ResponseDisposition"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URLCredential"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "URLSessionConfiguration"]
+- ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "authenticationHandler"]
+- !private ["s7CVarArgP", "authenticationMethod"]
+- !private ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "cgImage"]
+- !private ["s7CVarArgP", "contentURL"]
+- !private ["s7CVarArgP", "currentFrame"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "didFinishLoading"]
+- !private ["s7CVarArgP", "didStartLoading"]
+- !private ["s7CVarArgP", "hashValue"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "imageView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "length"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "protectionSpace"]
+- !private ["s7CVarArgP", "receivedData"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "serverTrust"]
+- !private ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "stop"]
+- ["s7CVarArgP", "urlSession"]
+- ["s7CVarArgP", "urlSessionDidFinishEvents"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "AuthChallengeDisposition"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Foundation"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableData"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURLAuthenticationMethodServerTrust"]
+- ["s28CustomDebugStringConvertibleP", "ResponseDisposition"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URLCredential"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSessionConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "authenticationHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "authenticationMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "cgImage"]
+- !private ["s28CustomDebugStringConvertibleP", "contentURL"]
+- !private ["s28CustomDebugStringConvertibleP", "currentFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "didFinishLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "didStartLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "imageView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "loading"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "playing"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "protectionSpace"]
+- !private ["s28CustomDebugStringConvertibleP", "receivedData"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "serverTrust"]
+- !private ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "stopped"]
+- ["s28CustomDebugStringConvertibleP", "urlSession"]
+- ["s28CustomDebugStringConvertibleP", "urlSessionDidFinishEvents"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "loading"]
+- !private ["s17CustomReflectableP", "playing"]
+- !private ["s17CustomReflectableP", "stopped"]
+- ["s23CustomStringConvertibleP", "AuthChallengeDisposition"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "Foundation"]
+- !private ["s23CustomStringConvertibleP", "NSMutableData"]
+- !private ["s23CustomStringConvertibleP", "NSURLAuthenticationMethodServerTrust"]
+- ["s23CustomStringConvertibleP", "ResponseDisposition"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URLCredential"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "URLSessionConfiguration"]
+- ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "authenticationHandler"]
+- !private ["s23CustomStringConvertibleP", "authenticationMethod"]
+- !private ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "cgImage"]
+- !private ["s23CustomStringConvertibleP", "contentURL"]
+- !private ["s23CustomStringConvertibleP", "currentFrame"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "didFinishLoading"]
+- !private ["s23CustomStringConvertibleP", "didStartLoading"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "imageView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "protectionSpace"]
+- !private ["s23CustomStringConvertibleP", "receivedData"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "serverTrust"]
+- !private ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- ["s23CustomStringConvertibleP", "urlSession"]
+- ["s23CustomStringConvertibleP", "urlSessionDidFinishEvents"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "loading"]
+- !private ["s9DecodableP", "playing"]
+- !private ["s9DecodableP", "stopped"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "loading"]
+- !private ["s9EncodableP", "playing"]
+- !private ["s9EncodableP", "stopped"]
+- ["s9EquatableP", "AuthChallengeDisposition"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "Foundation"]
+- !private ["s9EquatableP", "NSMutableData"]
+- !private ["s9EquatableP", "NSURLAuthenticationMethodServerTrust"]
+- ["s9EquatableP", "ResponseDisposition"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "URLCredential"]
+- !private ["s9EquatableP", "URLRequest"]
+- ["s9EquatableP", "URLSession"]
+- !private ["s9EquatableP", "URLSessionConfiguration"]
+- ["s9EquatableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "allow"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "authenticationHandler"]
+- !private ["s9EquatableP", "authenticationMethod"]
+- !private ["s9EquatableP", "cancel"]
+- !private ["s9EquatableP", "cgImage"]
+- !private ["s9EquatableP", "contentURL"]
+- !private ["s9EquatableP", "copy"]
+- !private ["s9EquatableP", "currentFrame"]
+- !private ["s9EquatableP", "dataTask"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "didFinishLoading"]
+- !private ["s9EquatableP", "didStartLoading"]
+- !private ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "image"]
+- !private ["s9EquatableP", "imageView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "length"]
+- !private ["s9EquatableP", "loading"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "performDefaultHandling"]
+- !private ["s9EquatableP", "play"]
+- !private ["s9EquatableP", "playing"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "protectionSpace"]
+- !private ["s9EquatableP", "receivedData"]
+- !private ["s9EquatableP", "resume"]
+- !private ["s9EquatableP", "serverTrust"]
+- !private ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "status"]
+- !private ["s9EquatableP", "stop"]
+- ["s9EquatableP", "stopped"]
+- ["s9EquatableP", "urlSession"]
+- ["s9EquatableP", "urlSessionDidFinishEvents"]
+- !private ["s9EquatableP", "useCredential"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- !private ["s23ExpressibleByNilLiteralP", "loading"]
+- !private ["s23ExpressibleByNilLiteralP", "playing"]
+- !private ["s23ExpressibleByNilLiteralP", "stopped"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "AuthChallengeDisposition"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "Foundation"]
+- !private ["s8HashableP", "NSMutableData"]
+- !private ["s8HashableP", "NSURLAuthenticationMethodServerTrust"]
+- ["s8HashableP", "ResponseDisposition"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "URLCredential"]
+- !private ["s8HashableP", "URLRequest"]
+- ["s8HashableP", "URLSession"]
+- !private ["s8HashableP", "URLSessionConfiguration"]
+- ["s8HashableP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "allow"]
+- !private ["s8HashableP", "append"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "authenticationHandler"]
+- !private ["s8HashableP", "authenticationMethod"]
+- !private ["s8HashableP", "cancel"]
+- !private ["s8HashableP", "cgImage"]
+- !private ["s8HashableP", "contentURL"]
+- !private ["s8HashableP", "copy"]
+- !private ["s8HashableP", "currentFrame"]
+- !private ["s8HashableP", "dataTask"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "didFinishLoading"]
+- !private ["s8HashableP", "didStartLoading"]
+- !private ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "image"]
+- !private ["s8HashableP", "imageView"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "length"]
+- !private ["s8HashableP", "loading"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "performDefaultHandling"]
+- !private ["s8HashableP", "play"]
+- !private ["s8HashableP", "playing"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "protectionSpace"]
+- !private ["s8HashableP", "receivedData"]
+- !private ["s8HashableP", "resume"]
+- !private ["s8HashableP", "serverTrust"]
+- !private ["s8HashableP", "session"]
+- !private ["s8HashableP", "status"]
+- !private ["s8HashableP", "stop"]
+- ["s8HashableP", "stopped"]
+- ["s8HashableP", "urlSession"]
+- ["s8HashableP", "urlSessionDidFinishEvents"]
+- !private ["s8HashableP", "useCredential"]
+- ["s8HashableP", ""]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- !private ["s10MirrorPathP", "init"]
+- ["17MjpegStreamingKit0aB10ControllerC", "Data"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "DispatchQueue"]
+- ["17MjpegStreamingKit0aB10ControllerC", "Foundation"]
+- ["17MjpegStreamingKit0aB10ControllerC", "NSMutableData"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "NSURLAuthenticationMethodServerTrust"]
+- ["17MjpegStreamingKit0aB10ControllerC", "Status"]
+- ["17MjpegStreamingKit0aB10ControllerC", "UIImage"]
+- ["17MjpegStreamingKit0aB10ControllerC", "UIImageView"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URL"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLAuthenticationChallenge"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLCredential"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "URLRequest"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLResponse"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLSession"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "URLSessionConfiguration"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLSessionDataTask"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["17MjpegStreamingKit0aB10ControllerC", "URLSessionTask"]
+- ["17MjpegStreamingKit0aB10ControllerC", "Void"]
+- ["17MjpegStreamingKit0aB10ControllerC", "authenticationHandler"]
+- ["17MjpegStreamingKit0aB10ControllerC", "contentURL"]
+- ["17MjpegStreamingKit0aB10ControllerC", "currentFrame"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "dataTask"]
+- ["17MjpegStreamingKit0aB10ControllerC", "deinit"]
+- ["17MjpegStreamingKit0aB10ControllerC", "didFinishLoading"]
+- ["17MjpegStreamingKit0aB10ControllerC", "didStartLoading"]
+- ["17MjpegStreamingKit0aB10ControllerC", "imageView"]
+- ["17MjpegStreamingKit0aB10ControllerC", "init"]
+- ["17MjpegStreamingKit0aB10ControllerC", "play"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "print"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "receivedData"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "session"]
+- !private ["17MjpegStreamingKit0aB10ControllerC", "status"]
+- ["17MjpegStreamingKit0aB10ControllerC", "stop"]
+- ["17MjpegStreamingKit0aB10ControllerC", "urlSession"]
+- ["17MjpegStreamingKit0aB10ControllerC", "urlSessionDidFinishEvents"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "authenticationMethod"]
+- !private ["So8NSCodingP", "cgImage"]
+- !private ["So8NSCodingP", "image"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "length"]
+- !private ["So8NSCodingP", "protectionSpace"]
+- !private ["So8NSCodingP", "serverTrust"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "authenticationMethod"]
+- !private ["So9NSCopyingP", "cancel"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "length"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "serverTrust"]
+- !private ["So6NSDataC", "append"]
+- !private ["So6NSDataC", "init"]
+- !private ["So6NSDataC", "length"]
+- !private ["So21NSItemProviderReadingP", "cgImage"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "cgImage"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "length"]
+- !private ["So13NSMutableDataC", "append"]
+- !private ["So13NSMutableDataC", "init"]
+- !private ["So13NSMutableDataC", "length"]
+- ["So8NSObjectC", "AuthChallengeDisposition"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "Foundation"]
+- ["So8NSObjectC", "NSMutableData"]
+- !private ["So8NSObjectC", "NSURLAuthenticationMethodServerTrust"]
+- ["So8NSObjectC", "ResponseDisposition"]
+- ["So8NSObjectC", "Status"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLAuthenticationChallenge"]
+- ["So8NSObjectC", "URLCredential"]
+- !private ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLResponse"]
+- ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "URLSessionConfiguration"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectC", "URLSessionTask"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "authenticationHandler"]
+- !private ["So8NSObjectC", "authenticationMethod"]
+- !private ["So8NSObjectC", "cancel"]
+- !private ["So8NSObjectC", "cgImage"]
+- ["So8NSObjectC", "contentURL"]
+- ["So8NSObjectC", "currentFrame"]
+- ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "didFinishLoading"]
+- ["So8NSObjectC", "didStartLoading"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "length"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "protectionSpace"]
+- ["So8NSObjectC", "receivedData"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "serverTrust"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "status"]
+- ["So8NSObjectC", "stop"]
+- ["So8NSObjectC", "urlSession"]
+- ["So8NSObjectC", "urlSessionDidFinishEvents"]
+- ["So8NSObjectC", ""]
+- ["So16NSObjectProtocolP", "AuthChallengeDisposition"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "Foundation"]
+- !private ["So16NSObjectProtocolP", "NSMutableData"]
+- !private ["So16NSObjectProtocolP", "NSURLAuthenticationMethodServerTrust"]
+- ["So16NSObjectProtocolP", "ResponseDisposition"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "URLCredential"]
+- !private ["So16NSObjectProtocolP", "URLRequest"]
+- ["So16NSObjectProtocolP", "URLSession"]
+- !private ["So16NSObjectProtocolP", "URLSessionConfiguration"]
+- ["So16NSObjectProtocolP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So16NSObjectProtocolP", "append"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "authenticationHandler"]
+- !private ["So16NSObjectProtocolP", "authenticationMethod"]
+- !private ["So16NSObjectProtocolP", "cancel"]
+- !private ["So16NSObjectProtocolP", "cgImage"]
+- !private ["So16NSObjectProtocolP", "contentURL"]
+- !private ["So16NSObjectProtocolP", "currentFrame"]
+- !private ["So16NSObjectProtocolP", "dataTask"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "didFinishLoading"]
+- !private ["So16NSObjectProtocolP", "didStartLoading"]
+- !private ["So16NSObjectProtocolP", "image"]
+- !private ["So16NSObjectProtocolP", "imageView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "length"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "play"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "protectionSpace"]
+- !private ["So16NSObjectProtocolP", "receivedData"]
+- !private ["So16NSObjectProtocolP", "resume"]
+- !private ["So16NSObjectProtocolP", "serverTrust"]
+- !private ["So16NSObjectProtocolP", "session"]
+- !private ["So16NSObjectProtocolP", "status"]
+- !private ["So16NSObjectProtocolP", "stop"]
+- ["So16NSObjectProtocolP", "urlSession"]
+- ["So16NSObjectProtocolP", "urlSessionDidFinishEvents"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "authenticationMethod"]
+- !private ["So14NSSecureCodingP", "cgImage"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "length"]
+- !private ["So14NSSecureCodingP", "protectionSpace"]
+- !private ["So14NSSecureCodingP", "serverTrust"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["Sq", "loading"]
+- !private ["Sq", "playing"]
+- !private ["Sq", "stopped"]
+- !private ["So17ProgressReportingP", "cancel"]
+- !private ["So17ProgressReportingP", "resume"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "allow"]
+- !private ["s16RawRepresentableP", "performDefaultHandling"]
+- !private ["s16RawRepresentableP", "useCredential"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So10URLSessionC19ResponseDispositionO", "allow"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "cgImage"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "image"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- !private ["So13UIDynamicItemP", "image"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- !private ["So11UIFocusItemP", "image"]
+- !private ["So7UIImageC", "cgImage"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "cgImage"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- !private ["So11UIResponderC", "image"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- !private ["So6UIViewC", "image"]
+- !private ["So26URLAuthenticationChallengeC", "protectionSpace"]
+- !private ["So13URLCredentialC", "init"]
+- !private ["So18URLProtectionSpaceC", "authenticationMethod"]
+- !private ["So18URLProtectionSpaceC", "serverTrust"]
+- !private ["10Foundation10URLRequestV", "init"]
+- ["So10URLSessionC", "AuthChallengeDisposition"]
+- ["So10URLSessionC", "ResponseDisposition"]
+- !private ["So10URLSessionC", "dataTask"]
+- !private ["So10URLSessionC", "init"]
+- !private ["So23URLSessionConfigurationC", "default"]
+- !private ["So22URLSessionDataDelegateP", "DispatchQueue"]
+- !private ["So22URLSessionDataDelegateP", "Foundation"]
+- !private ["So22URLSessionDataDelegateP", "NSMutableData"]
+- !private ["So22URLSessionDataDelegateP", "NSURLAuthenticationMethodServerTrust"]
+- !private ["So22URLSessionDataDelegateP", "UIImage"]
+- !private ["So22URLSessionDataDelegateP", "URLCredential"]
+- !private ["So22URLSessionDataDelegateP", "URLRequest"]
+- ["So22URLSessionDataDelegateP", "URLSession"]
+- !private ["So22URLSessionDataDelegateP", "URLSessionConfiguration"]
+- ["So22URLSessionDataDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So22URLSessionDataDelegateP", "authenticationHandler"]
+- !private ["So22URLSessionDataDelegateP", "contentURL"]
+- !private ["So22URLSessionDataDelegateP", "currentFrame"]
+- !private ["So22URLSessionDataDelegateP", "dataTask"]
+- !private ["So22URLSessionDataDelegateP", "didFinishLoading"]
+- !private ["So22URLSessionDataDelegateP", "didStartLoading"]
+- !private ["So22URLSessionDataDelegateP", "imageView"]
+- !private ["So22URLSessionDataDelegateP", "init"]
+- !private ["So22URLSessionDataDelegateP", "play"]
+- !private ["So22URLSessionDataDelegateP", "print"]
+- !private ["So22URLSessionDataDelegateP", "receivedData"]
+- !private ["So22URLSessionDataDelegateP", "session"]
+- !private ["So22URLSessionDataDelegateP", "status"]
+- !private ["So22URLSessionDataDelegateP", "stop"]
+- ["So22URLSessionDataDelegateP", "urlSession"]
+- ["So22URLSessionDataDelegateP", "urlSessionDidFinishEvents"]
+- ["So22URLSessionDataDelegateP", ""]
+- !private ["So18URLSessionDataTaskC", "cancel"]
+- !private ["So18URLSessionDataTaskC", "resume"]
+- !private ["So18URLSessionDelegateP", "DispatchQueue"]
+- !private ["So18URLSessionDelegateP", "Foundation"]
+- !private ["So18URLSessionDelegateP", "NSMutableData"]
+- !private ["So18URLSessionDelegateP", "NSURLAuthenticationMethodServerTrust"]
+- !private ["So18URLSessionDelegateP", "UIImage"]
+- !private ["So18URLSessionDelegateP", "URLCredential"]
+- !private ["So18URLSessionDelegateP", "URLRequest"]
+- ["So18URLSessionDelegateP", "URLSession"]
+- !private ["So18URLSessionDelegateP", "URLSessionConfiguration"]
+- ["So18URLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So18URLSessionDelegateP", "authenticationHandler"]
+- !private ["So18URLSessionDelegateP", "contentURL"]
+- !private ["So18URLSessionDelegateP", "currentFrame"]
+- !private ["So18URLSessionDelegateP", "dataTask"]
+- !private ["So18URLSessionDelegateP", "didFinishLoading"]
+- !private ["So18URLSessionDelegateP", "didStartLoading"]
+- !private ["So18URLSessionDelegateP", "imageView"]
+- !private ["So18URLSessionDelegateP", "init"]
+- !private ["So18URLSessionDelegateP", "play"]
+- !private ["So18URLSessionDelegateP", "print"]
+- !private ["So18URLSessionDelegateP", "receivedData"]
+- !private ["So18URLSessionDelegateP", "session"]
+- !private ["So18URLSessionDelegateP", "status"]
+- !private ["So18URLSessionDelegateP", "stop"]
+- ["So18URLSessionDelegateP", "urlSession"]
+- ["So18URLSessionDelegateP", "urlSessionDidFinishEvents"]
+- ["So18URLSessionDelegateP", ""]
+- !private ["So14URLSessionTaskC", "cancel"]
+- !private ["So14URLSessionTaskC", "resume"]
+- !private ["So22URLSessionTaskDelegateP", "DispatchQueue"]
+- !private ["So22URLSessionTaskDelegateP", "Foundation"]
+- !private ["So22URLSessionTaskDelegateP", "NSMutableData"]
+- !private ["So22URLSessionTaskDelegateP", "NSURLAuthenticationMethodServerTrust"]
+- !private ["So22URLSessionTaskDelegateP", "UIImage"]
+- !private ["So22URLSessionTaskDelegateP", "URLCredential"]
+- !private ["So22URLSessionTaskDelegateP", "URLRequest"]
+- ["So22URLSessionTaskDelegateP", "URLSession"]
+- !private ["So22URLSessionTaskDelegateP", "URLSessionConfiguration"]
+- ["So22URLSessionTaskDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["So22URLSessionTaskDelegateP", "authenticationHandler"]
+- !private ["So22URLSessionTaskDelegateP", "contentURL"]
+- !private ["So22URLSessionTaskDelegateP", "currentFrame"]
+- !private ["So22URLSessionTaskDelegateP", "dataTask"]
+- !private ["So22URLSessionTaskDelegateP", "didFinishLoading"]
+- !private ["So22URLSessionTaskDelegateP", "didStartLoading"]
+- !private ["So22URLSessionTaskDelegateP", "imageView"]
+- !private ["So22URLSessionTaskDelegateP", "init"]
+- !private ["So22URLSessionTaskDelegateP", "play"]
+- !private ["So22URLSessionTaskDelegateP", "print"]
+- !private ["So22URLSessionTaskDelegateP", "receivedData"]
+- !private ["So22URLSessionTaskDelegateP", "session"]
+- !private ["So22URLSessionTaskDelegateP", "status"]
+- !private ["So22URLSessionTaskDelegateP", "stop"]
+- ["So22URLSessionTaskDelegateP", "urlSession"]
+- ["So22URLSessionTaskDelegateP", "urlSessionDidFinishEvents"]
+- ["So22URLSessionTaskDelegateP", ""]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["14CoreFoundation9_CFObjectP", "copy"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "cgImage"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "length"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AuthChallengeDisposition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Foundation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURLAuthenticationMethodServerTrust"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ResponseDisposition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLCredential"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authenticationHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "authenticationMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didFinishLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didStartLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "length"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "protectionSpace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "receivedData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serverTrust"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSessionDidFinishEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "loading"]
+- !private ["s21_ObjectiveCBridgeableP", "playing"]
+- !private ["s21_ObjectiveCBridgeableP", "stopped"]
+- !private ["s26_OptionalNilComparisonTypeV", "loading"]
+- !private ["s26_OptionalNilComparisonTypeV", "playing"]
+- !private ["s26_OptionalNilComparisonTypeV", "stopped"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "hashValue"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "So10URLSessionC24AuthChallengeDispositionO"
+- !private "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "So7CGImageC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "17MjpegStreamingKit0aB10ControllerC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDataC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So13NSMutableDataC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- !private "So9OS_objectC"
+- !private "Sq"
+- !private "So17ProgressReportingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So10URLSessionC19ResponseDispositionO"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "So26URLAuthenticationChallengeC"
+- !private "So13URLCredentialC"
+- !private "So18URLProtectionSpaceC"
+- !private "10Foundation10URLRequestV"
+- "So10URLSessionC"
+- !private "So23URLSessionConfigurationC"
+- "So22URLSessionDataDelegateP"
+- !private "So18URLSessionDataTaskC"
+- "So18URLSessionDelegateP"
+- !private "So14URLSessionTaskC"
+- "So22URLSessionTaskDelegateP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- !private "14CoreFoundation9_CFObjectP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/summer/Documents/EECS_498/Project/MjpegStreamingKit/MjpegStreamingKit.h"
+- "/Users/summer/Documents/EECS_498/Project/build/MjpegStreamingKit.build/Debug-iphoneos/MjpegStreamingKit.build/unextended-module.modulemap"
+interface-hash: "01f9b66eb9be4ac8c08e0307b7270c1b"
